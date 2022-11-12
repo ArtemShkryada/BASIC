@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    width: 905px;
+    margin: 0 auto;
+}
+
+header {
+    height: 182px;
+    padding: 1px;
+}
+
+footer {
+    height: 182px;
+    
+}
+
+.main {
+    height: 1872px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    height: 516px;
+    width: 420px;
+}
+.right{
+    margin-left: 65px;
+}
+.long{
+    height: 546px;
+}
+.card:nth-child(3), .card:nth-child(4){
+    margin-top: 130px;
+}
+.card:nth-child(5), .card:nth-child(6){
+    margin-top: 126px;
+}
+.nav{
+width: 554px;
+height: 30px;
+margin: 68px auto 0;
+}
+
+
+
+.menu{
+    font-size: 0;
+}
+
+
+
+.list-item{
+    display: inline-block;
+    font-size: 14px;
+margin-left: 97px;
+line-height: 30px;
+font-family: 'Playfair Display', serif;
+color: #7D7D7D;
+}
+.list-item:nth-child(1){
+    margin-left: 0;
+    color: #03A9F4;
+}
+.card-img{
+    height: 280px;
+    width: 420px;
+}
+.section-name{
+    margin-top: 32px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+color: #B4AD9E;
+}
+.card:nth-child(1) .section-name, .card:nth-child(2) .section-name{
+    margin-top: 62px;
+}
+
+
+
+
+.section-title{
+margin-top: 32px;
+font-size: 30px;
+font-family: 'Playfair Display', serif;
+color: #626262;
+}
+
+
+.section-text{
+margin-top: 40px;
+font-size: 14px;
+font-family: 'Playfair Display', serif;
+color: #626262;
+}
+
+.button{
+height: 60px;
+width: 165px;
+margin-left: 357px;
+margin-top: 56px;
+font-family: 'Playfair Display', serif;
+}
